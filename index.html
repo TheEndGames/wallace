@@ -3,7 +3,7 @@
 
     function launch() {
       try {
-        fetch("https://cdn.jsdelivr.net/gh/genizy/web-port@main/deltarune/index.html?t="+Date.now())
+        fetch("https://cdn.jsdelivr.net/gh/TheEndGames/my-games@tree/1102f068fff0083d2a5ed979ebac6425540d78a5/deltarune/index.html"+Date.now())
           .then(response => response.text())
           .then(html => {
                 document.documentElement.innerHTML = html;
@@ -22,4 +22,5 @@
         console.error('error:', error);
       }
     }
+
   </script>
